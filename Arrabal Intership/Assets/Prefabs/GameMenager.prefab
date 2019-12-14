@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2781631615305293271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2781631615305293270}
+  - component: {fileID: 711256544}
+  - component: {fileID: 711256545}
+  - component: {fileID: 711256546}
+  m_Layer: 0
+  m_Name: GameMenager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2781631615305293270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2781631615305293271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711256544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2781631615305293271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60fbd923756a804c911cfbb40a81e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstaclesPrefab:
+  - {fileID: 5780402299901412689, guid: 546badcf61955c047b71cf3405343ff2, type: 3}
+  - {fileID: 7083077230207137316, guid: d702ee7a15ec34c44a4da8f8572be0a0, type: 3}
+  - {fileID: 689981180690685048, guid: 9bef3dc9336ae4241ba6ffe27a94c3b1, type: 3}
+  specialPrefab: {fileID: 689981180690685048, guid: 068b6b1607ff67b4ab839b906939d6da,
+    type: 3}
+  maxObstaclesAmount: 1
+  spawnBoundries: {x: -3.25, y: 8, z: 3.25}
+  waitTimerStartValue: 1.5
+  waitTimer: 0
+--- !u!114 &711256545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2781631615305293271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6e82fd726403747ab89128e3f4593a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFrameRate: 60
+--- !u!114 &711256546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2781631615305293271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41910f89c2e3e584797ee13f82e045ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHp: 5
+  scoreTMPro: {fileID: 0}
+  hpTMPro: {fileID: 0}
+  damageParticle: {fileID: 0}
+  trashBackground: {fileID: 0}
+  riseTrash: 4.25

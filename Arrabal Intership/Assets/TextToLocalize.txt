@@ -1,0 +1,66 @@
+//English:
+
+International Enviroment Day
+
+Start
+Help
+Authors
+
+Volume
+
+How to play
+
+- Sort the falling rubbish into appropriate containers
+- You start with five health points, you lose your health point, when the trash falls on the floor or goes to an wrong container
+- You can gain health point if you sort correctly 10 rubbish in a row, or if you catch a star.
+
+Health Points
+Score
+
+Statistics
+Main Menu
+Try Again
+
+Time Survived
+Score
+Trash Collected
+Specials Collected
+Plastic Collected
+Glass Collected
+Paper Collected
+Trash Lost
+Trash in wrong bin
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+//Spanish:
+
+Dia internacional del medio ambiente
+
+Comienzo / Jugar
+Ayuda
+Autores
+
+Volumen
+
+Cómo jugar
+
+- Clasificar la basura que cae en contenedores apropiados.
+- Comienzas con cinco puntos de salud, pierdes tu punto de salud cuando la basura cae al piso o va a un contenedor equivocado.
+- Puedes ganar puntos de vida si clasificas correctamente 10 desperdicios seguidos, o si atrapas una estrella.
+
+Puntos de salud
+Puntuación
+
+Estadística
+Menú principal
+Inténtalo de nuevo
+
+Tiempo sobrevivido
+Puntuación
+Recolección de basura
+Ofertas especiales recogidas
+Plástico recogido
+Vidrio recogido
+Papel recogido
+Basura perdida
+Basura en el contenedor equivocado
