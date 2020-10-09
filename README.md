@@ -1,4 +1,4 @@
-# Arrabal Intership
+# Arrabal Internship
 
 ### Game, I created using Unity during inernship in *Asociacion Arrabal, Malaga*.
 
